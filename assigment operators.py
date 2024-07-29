@@ -1,0 +1,17 @@
+a=10
+b=20
+c=a+b
+print("addition")
+print(c)
+c*=a
+print("multiplication")
+print(c)
+c/=b
+print("division")
+print(c)
+c-=b
+print("subtraction")
+print(c)
+c%=a
+print("modulus")
+print(c)
