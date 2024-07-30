@@ -4,4 +4,12 @@ def fact(n):
         fact=fact*i
     return fact
 n=int(input("enter the n value:"))
-print("factorial of {} is {}".format(n,fact(n)))
+print(fact(n))
+
+m=int(input("enter a year"))
+if m%4==0:
+    print(m," is leap year")
+elif m%400==0:
+    print(m," leap year")
+else:
+    print(m,"not a leap year")
